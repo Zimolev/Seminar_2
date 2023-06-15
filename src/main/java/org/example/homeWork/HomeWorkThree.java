@@ -11,7 +11,7 @@ package org.example.homeWork;
 public class HomeWorkThree {
     public static void main(String[] args) {
 
-        int[] massiv = {1, 22, 33, 44, 5, -5, -3, 23, -7, 100};
+        int[] massiv = {1, -22, 33, 44, 5, -5, -3, 23, -7, 100};
         int[] array = changeArray(massiv);
         printArray(array);
     }
@@ -24,7 +24,7 @@ public class HomeWorkThree {
     private static int sumIndexArrey(int[] massiv) {
         int sum = 0;
         for (int i = 0; i < massiv.length; i++) {
-            if (Math.log10(massiv[i]) >= 1 && Math.log10(massiv[i]) < 2) sum += i;
+            if (Math.log10(Math.abs(massiv[i])) >= 1 && Math.log10(Math.abs(massiv[i])) < 2) sum += i;
         }
         return sum;
     }

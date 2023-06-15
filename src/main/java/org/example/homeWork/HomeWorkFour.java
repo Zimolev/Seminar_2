@@ -1,5 +1,5 @@
 package org.example.homeWork;
-
+Не знаю пока даже как ее решить на бумаге
 /**
  *  /**
  Отвалидировать доску судоку
@@ -33,6 +33,7 @@ public class HomeWorkFour {
     }
 
     private static String isValidSudoku(char[][] board) {
-        
+
+
     }
 }
